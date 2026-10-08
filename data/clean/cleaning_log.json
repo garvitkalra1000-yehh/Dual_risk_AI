@@ -1,0 +1,86 @@
+[
+  {
+    "source": "academic",
+    "original_rows": 8568,
+    "duplicate_rows": 168,
+    "missing_values_before": 1329,
+    "missing_values_after": 0,
+    "invalid_values": 0,
+    "rows_removed": 168,
+    "transformations": [
+      "standardized department names"
+    ]
+  },
+  {
+    "source": "attendance",
+    "original_rows": 8297,
+    "duplicate_rows": 167,
+    "missing_values_before": 341,
+    "missing_values_after": 0,
+    "invalid_values": 81,
+    "rows_removed": 167,
+    "transformations": [
+      "converted attendance percentage strings"
+    ]
+  },
+  {
+    "source": "lms",
+    "original_rows": 8253,
+    "duplicate_rows": 165,
+    "missing_values_before": 669,
+    "missing_values_after": 0,
+    "invalid_values": 0,
+    "rows_removed": 165,
+    "transformations": []
+  },
+  {
+    "source": "engagement",
+    "original_rows": 8568,
+    "duplicate_rows": 168,
+    "missing_values_before": 1273,
+    "missing_values_after": 0,
+    "invalid_values": 0,
+    "rows_removed": 168,
+    "transformations": []
+  },
+  {
+    "source": "placement",
+    "original_rows": 8568,
+    "duplicate_rows": 168,
+    "missing_values_before": 969,
+    "missing_values_after": 0,
+    "invalid_values": 0,
+    "rows_removed": 168,
+    "transformations": []
+  },
+  {
+    "source": "skills",
+    "original_rows": 8568,
+    "duplicate_rows": 168,
+    "missing_values_before": 687,
+    "missing_values_after": 0,
+    "invalid_values": 0,
+    "rows_removed": 168,
+    "transformations": []
+  },
+  {
+    "source": "feedback",
+    "original_rows": 8568,
+    "duplicate_rows": 168,
+    "missing_values_before": 690,
+    "missing_values_after": 0,
+    "invalid_values": 0,
+    "rows_removed": 168,
+    "transformations": []
+  },
+  {
+    "source": "outcomes",
+    "original_rows": 1400,
+    "duplicate_rows": 0,
+    "missing_values_before": 800,
+    "missing_values_after": 0,
+    "invalid_values": 0,
+    "rows_removed": 0,
+    "transformations": []
+  }
+]

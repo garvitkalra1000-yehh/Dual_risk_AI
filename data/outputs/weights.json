@@ -1,0 +1,8 @@
+{
+  "academic": 0.35,
+  "attendance": 0.2,
+  "lms": 0.15,
+  "placement": 0.15,
+  "engagement_skills": 0.1,
+  "feedback": 0.05
+}

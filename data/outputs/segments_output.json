@@ -1,0 +1,59 @@
+{
+  "selected_k": 3,
+  "silhouette_by_k": {
+    "3": 0.14365012168079477,
+    "4": 0.13376863019327548,
+    "5": 0.1331501103212953,
+    "6": 0.13603373173963554
+  },
+  "segments": [
+    {
+      "cluster": 0,
+      "segment": "Silent Strugglers",
+      "size": 391,
+      "percentage": 27.92857142857143,
+      "key_characteristics": {
+        "success_score": 68.41,
+        "cgpa": 6.45,
+        "attendance_pct": 78.64,
+        "coding": 55.64,
+        "placement_component": 64.11,
+        "engagement_score": 5.26,
+        "lms_logins": 14.11
+      },
+      "recommended_playbook": "Target attendance, academics, placement, and mentor actions based on weakest drivers."
+    },
+    {
+      "cluster": 1,
+      "segment": "Placement-Ready Academic Strugglers",
+      "size": 452,
+      "percentage": 32.285714285714285,
+      "key_characteristics": {
+        "success_score": 69.52,
+        "cgpa": 6.48,
+        "attendance_pct": 76.47,
+        "coding": 78.79,
+        "placement_component": 76.41,
+        "engagement_score": 4.52,
+        "lms_logins": 13.49
+      },
+      "recommended_playbook": "Target attendance, academics, placement, and mentor actions based on weakest drivers."
+    },
+    {
+      "cluster": 2,
+      "segment": "Strong Performers",
+      "size": 557,
+      "percentage": 39.785714285714285,
+      "key_characteristics": {
+        "success_score": 75.83,
+        "cgpa": 7.38,
+        "attendance_pct": 86.85,
+        "coding": 76.66,
+        "placement_component": 76.98,
+        "engagement_score": 5.38,
+        "lms_logins": 16.02
+      },
+      "recommended_playbook": "Target attendance, academics, placement, and mentor actions based on weakest drivers."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+:root {
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  color: #0f172a;
+  background: #f8fafc;
+}
+* { box-sizing: border-box; }
+body { margin: 0; }
+.app-shell { display: grid; grid-template-columns: 240px 1fr; min-height: 100vh; }
+.sidebar { background: #0f172a; color: white; padding: 1rem; }
+.sidebar h1 { font-size: 1.3rem; margin-bottom: 0.25rem; }
+.sidebar p { color: #94a3b8; margin-top: 0; }
+.sidebar nav { display: grid; gap: 0.5rem; margin-top: 1rem; }
+.sidebar a { color: #cbd5e1; text-decoration: none; padding: 0.5rem; border-radius: 0.5rem; }
+.sidebar a.active, .sidebar a:hover { background: #1e293b; color: #fff; }
+.content { padding: 1rem 1.2rem; overflow: auto; }
+.page h2 { margin-top: 0; }
+.grid-4 { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0.8rem; }
+.grid-2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.8rem; margin-top: 0.8rem; }
+.kpi, .panel { background: white; border: 1px solid #e2e8f0; border-radius: 0.8rem; padding: 0.9rem; }
+.kpi-label { font-size: 0.8rem; color: #64748b; }
+.kpi-value { font-size: 1.5rem; font-weight: 600; margin-top: 0.3rem; }
+.table-wrap { overflow: auto; background: white; border-radius: 0.8rem; border: 1px solid #e2e8f0; }
+table { width: 100%; border-collapse: collapse; }
+th, td { padding: 0.65rem; text-align: left; border-bottom: 1px solid #f1f5f9; }
+tr:hover { background: #f8fafc; cursor: pointer; }
+.toolbar { display: flex; gap: 0.5rem; margin-bottom: 0.7rem; }
+select, button, input { padding: 0.45rem 0.55rem; border: 1px solid #cbd5e1; border-radius: 0.5rem; }
+button { background: #2563eb; color: white; border: none; cursor: pointer; }
+button:hover { background: #1d4ed8; }
+.state { padding: 1rem; background: white; border: 1px solid #e2e8f0; border-radius: 0.8rem; }
+.error { color: #b91c1c; }
+.note { color: #334155; font-size: 0.9rem; }
+.weight-row { display: grid; grid-template-columns: 180px 1fr 70px; align-items: center; gap: 0.6rem; margin-bottom: 0.5rem; }
+.admin-item { margin-bottom: 0.6rem; }
+@media (max-width: 1100px) {
+  .app-shell { grid-template-columns: 1fr; }
+  .sidebar { position: sticky; top: 0; z-index: 5; }
+  .grid-4, .grid-2 { grid-template-columns: 1fr; }
+}

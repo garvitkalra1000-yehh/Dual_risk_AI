@@ -1,0 +1,77 @@
+{
+  "target": "placement_risk_target",
+  "chosen_model": "logistic_regression",
+  "feature_columns": [
+    "cgpa",
+    "internal_marks",
+    "subject_avg",
+    "backlogs",
+    "attendance_pct",
+    "subject_attendance",
+    "lms_logins",
+    "assignment_completion",
+    "events",
+    "clubs",
+    "hackathons",
+    "certifications",
+    "aptitude",
+    "coding",
+    "mock_interview",
+    "technical_skills",
+    "soft_skills",
+    "satisfaction",
+    "faculty_rating",
+    "cgpa_slope",
+    "attendance_pct_slope",
+    "lms_logins_slope",
+    "coding_slope",
+    "assignment_completion_slope",
+    "cgpa_volatility",
+    "attendance_pct_volatility",
+    "lms_logins_volatility",
+    "coding_volatility",
+    "cgpa_missing",
+    "attendance_pct_missing",
+    "lms_logins_missing",
+    "coding_missing",
+    "technical_skills_missing",
+    "department",
+    "semester"
+  ],
+  "metrics_by_model": {
+    "logistic_regression": {
+      "roc_auc": 0.5850083712030615,
+      "pr_auc": 0.3167988379254518,
+      "precision": 0.27626459143968873,
+      "recall": 0.7675675675675676,
+      "confusion_matrix": [
+        [
+          193,
+          372
+        ],
+        [
+          43,
+          142
+        ]
+      ],
+      "threshold": 0.4252599418402632
+    },
+    "random_forest_fallback": {
+      "roc_auc": 0.620129155704377,
+      "pr_auc": 0.3252603413806136,
+      "precision": 0.3045356371490281,
+      "recall": 0.7621621621621621,
+      "confusion_matrix": [
+        [
+          243,
+          322
+        ],
+        [
+          44,
+          141
+        ]
+      ],
+      "threshold": 0.2510185064280543
+    }
+  }
+}
