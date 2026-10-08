@@ -1,0 +1,17 @@
+{
+  "total_students": 1400,
+  "avg_success_score": 71.72,
+  "academic_risk_count": 487,
+  "placement_risk_count": 518,
+  "tier_counts": {
+    "Green": 919,
+    "Amber": 481
+  },
+  "department_comparison": {
+    "CSE": 73.78,
+    "Civil": 70.57,
+    "ECE": 70.51,
+    "EEE": 70.98,
+    "ME": 70.49
+  }
+}

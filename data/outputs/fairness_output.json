@@ -1,0 +1,35 @@
+{
+  "note": "Capability demonstration on synthetic data; not proof of production fairness.",
+  "department_metrics": [
+    {
+      "department": "CSE",
+      "recall": 0.961082910321489,
+      "false_positive_rate": 0.1300639658848614,
+      "students": 1060
+    },
+    {
+      "department": "Civil",
+      "recall": 0.953125,
+      "false_positive_rate": 0.0639269406392694,
+      "students": 475
+    },
+    {
+      "department": "ECE",
+      "recall": 0.9247648902821317,
+      "false_positive_rate": 0.1037344398340249,
+      "students": 560
+    },
+    {
+      "department": "EEE",
+      "recall": 0.9256756756756757,
+      "false_positive_rate": 0.07086614173228346,
+      "students": 275
+    },
+    {
+      "department": "ME",
+      "recall": 0.9135446685878963,
+      "false_positive_rate": 0.0989399293286219,
+      "students": 630
+    }
+  ]
+}
